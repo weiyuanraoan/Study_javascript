@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#box {width:140px; height:140px; margin: auto; background-color:black;
+			color: white; font: 12px/1.5 Tahoma; padding: 20px}
+#box.hover {background-color: red; color: green}
+</style>
+
+<script>
+window.onload = function() {
+	var oBox = document.getElementById("box");
+	oBox.onmouseover = function() {
+		oBox.className = "hover";
+	};
+	oBox.onmouseout = function() {
+		oBox.className = "";
+	};
+};
+</script>
+</head>
+<body>
+<div id="box">
+鼠标移入改变样式，鼠标移出恢复。
+</div>
+</body>
+</html>

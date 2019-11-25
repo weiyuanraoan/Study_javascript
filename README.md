@@ -1,0 +1,3 @@
+＃Study_javascript
+-这是JavaScript实力基本语法学习。
+JavaScript的灵活语法学习
